@@ -8,7 +8,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>afconvert - Convert to "*.m4a"</string>
+				<string>afconvert - Encode to AAC</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>

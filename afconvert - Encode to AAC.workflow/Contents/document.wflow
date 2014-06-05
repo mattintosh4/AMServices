@@ -197,7 +197,7 @@ afplay /System/Library/Sounds/Hero.aiff &amp;</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>490.500000:500.000000</string>
+				<string>681.500000:500.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -257,11 +257,11 @@ afplay /System/Library/Sounds/Hero.aiff &amp;</string>
 		<key>majorSplitViewState</key>
 		<dict>
 			<key>expandedPosition</key>
-			<real>343</real>
+			<real>381</real>
 			<key>subviewState</key>
 			<array>
-				<string>0.000000, 0.000000, 381.000000, 724.000000, NO</string>
-				<string>382.000000, 0.000000, 981.000000, 724.000000, NO</string>
+				<string>0.000000, 0.000000, 0.000000, 724.000000, YES</string>
+				<string>0.000000, 0.000000, 1363.000000, 724.000000, NO</string>
 			</array>
 		</dict>
 		<key>minorSplitViewState</key>
@@ -270,14 +270,14 @@ afplay /System/Library/Sounds/Hero.aiff &amp;</string>
 			<real>150</real>
 			<key>subviewState</key>
 			<array>
-				<string>0.000000, 0.000000, 981.000000, 555.000000, NO</string>
-				<string>0.000000, 565.000000, 981.000000, 140.000000, NO</string>
+				<string>0.000000, 0.000000, 1363.000000, 555.000000, NO</string>
+				<string>0.000000, 565.000000, 1363.000000, 140.000000, NO</string>
 			</array>
 		</dict>
 		<key>windowFrame</key>
 		<string>{{4, 0}, {1362, 746}}</string>
 		<key>workflowViewScrollPosition</key>
-		<string>{{0, 0}, {981, 555}}</string>
+		<string>{{0, 0}, {1363, 555}}</string>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
