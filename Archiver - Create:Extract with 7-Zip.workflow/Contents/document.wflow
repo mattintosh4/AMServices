@@ -60,9 +60,13 @@ PATH=/opt/local/bin:$PATH
 for f
 {
     case $1 in
-    *.7z|*.bz2|*.cab|*.gz|*.rar|*.tar|*.xz|*.zip|\
-    *.7Z|*.BZ2|*.CAB|*.GZ|*.RAR|*.TAR|*.XZ|*.ZIP)
-        7z x -o"${f%/*}" "$f"
+    *.7z|*.bz2|*.bzip2|*.cab|*.dmg|*.gz|*.gzip|*.iso|\
+    *.7Z|*.BZ2|*.BZIP2|*.CAB|*.DMG|*.GZ|*.GZIP|*.ISO|\
+    *.lha|*.lzh|*.lzma|*.rar|*.tar|*.taz|*.tbz|*.tbz2|\
+    *.LHA|*.LZH|*.LZMA|*.RAR|*.TAR|*.TAZ|*.TBZ|*.TBZ2|\
+    *.tgz|*.tpz|*.txz|*.xar|*.xz|*.z|*.zip|\
+    *.TGZ|*.TPZ|*.TXZ|*.XAR|*.XZ|*.Z|*.ZIP)
+        7z x -y -o"${f%/*}" "$f"
         ;;
     *)
         7z a "$f".7z "$f"

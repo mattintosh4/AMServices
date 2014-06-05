@@ -57,7 +57,7 @@
 					<key>COMMAND_STRING</key>
 					<string>set -e
 set -a
-PATH=/usr/local/wine/bin:/usr/bin:/bin
+PATH=/usr/local/wine/bin:/opt/local/bin:/usr/bin:/bin
 WINEPREFIX=$HOME/.wine_apps
 WINEPATH=/usr/local/libexec/7-ZipPortable/App/7-Zip
 set +a
@@ -182,7 +182,7 @@ for f
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>490.500000:500.000000</string>
+				<string>681.500000:500.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -242,11 +242,11 @@ for f
 		<key>majorSplitViewState</key>
 		<dict>
 			<key>expandedPosition</key>
-			<real>284</real>
+			<real>381</real>
 			<key>subviewState</key>
 			<array>
-				<string>0.000000, 0.000000, 381.000000, 724.000000, NO</string>
-				<string>382.000000, 0.000000, 981.000000, 724.000000, NO</string>
+				<string>0.000000, 0.000000, 0.000000, 724.000000, YES</string>
+				<string>0.000000, 0.000000, 1363.000000, 724.000000, NO</string>
 			</array>
 		</dict>
 		<key>minorSplitViewState</key>
@@ -255,14 +255,14 @@ for f
 			<real>140</real>
 			<key>subviewState</key>
 			<array>
-				<string>0.000000, 0.000000, 981.000000, 555.000000, NO</string>
-				<string>0.000000, 565.000000, 981.000000, 140.000000, NO</string>
+				<string>0.000000, 0.000000, 1363.000000, 555.000000, NO</string>
+				<string>0.000000, 565.000000, 1363.000000, 140.000000, NO</string>
 			</array>
 		</dict>
 		<key>windowFrame</key>
-		<string>{{1397, 97}, {1362, 746}}</string>
+		<string>{{4, 0}, {1362, 746}}</string>
 		<key>workflowViewScrollPosition</key>
-		<string>{{0, 0}, {981, 555}}</string>
+		<string>{{0, 0}, {1363, 555}}</string>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
